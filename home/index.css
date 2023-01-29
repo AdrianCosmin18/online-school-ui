@@ -1,0 +1,91 @@
+.nav{
+    gap: 20px;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.title{
+    margin-right: auto;
+    color: #2878eb;
+    margin-left: 5%;
+}
+
+.bi-person-fill{
+    margin-left: 25px;
+    font-size: 35px;
+    color: #2878eb;
+}
+
+.backgroundImg{
+    background: linear-gradient(rgba(40, 120, 235, 0.9), rgba(40, 120, 235, 0.9)), url("../images/backgroundImg.jpeg"),  no-repeat center center;
+    opacity: 90%;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundImg::after
+{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 85px;
+    left: 0;
+    z-index: 1;
+}
+
+.backgroundImg::after{
+    bottom: 0;
+    background: url(../images/overlay-bottom.png) bottom center no-repeat;
+    background-size: contain;
+}
+
+.backgroundImg h3{
+    font-size: 45px;
+    color: white;
+}
+
+.backgroundImg h1{
+    font-size: 60px;
+    color: white;
+}
+
+.section-course{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.card-title{
+    font-size: 30px;
+}
+
+.badge{
+    margin-top: 5%;
+    font-size: 25px;
+    padding: 15px;
+}
+
+footer{
+    background-color: #120f2d;
+    color: white;
+    padding-top: 100px;
+    margin-top: 30%;
+}
+
+
+
+.bi-geo-alt-fill{
+    font-size: 20px;
+}
+
+
+
